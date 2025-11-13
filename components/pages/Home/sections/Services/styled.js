@@ -25,9 +25,19 @@ export const Grid = styled.div`
   margin-top: 3rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
+
+    ${({ theme }) => theme.media.lg} {
+     grid-template-columns: 1fr 1fr;
+  }
+
   ${({ theme }) => theme.media.lg} {
     gap: 1.5rem;
+  }
+
+
+  ${({ theme }) => theme.media.xxl} {
+   grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
   }
 `
 

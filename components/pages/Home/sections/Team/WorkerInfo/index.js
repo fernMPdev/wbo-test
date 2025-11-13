@@ -31,7 +31,7 @@ const WorkerInfo = ({ worker }) => {
             transition: { duration: 1, delay: 0.5 }
           }}
         >
-          <Text tag='p' font='body.paragraph'>
+          <Text tag='p' font='body.paragraph'  color='neutral[400]'>
             {worker?.role}
           </Text>
         </S.DescContainer>
@@ -43,7 +43,7 @@ const WorkerInfo = ({ worker }) => {
             transition: { duration: 1, delay: 0.5 }
           }}
         >
-          <Text tag='p' font='body.paragraph'>
+          <Text tag='p' font='body.paragraph'  color='neutral[400]'>
             {worker?.description}
           </Text>
         </S.DescContainer>

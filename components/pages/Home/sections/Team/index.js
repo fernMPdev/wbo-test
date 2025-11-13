@@ -22,7 +22,7 @@ const Team = ({ teamMembers }) => {
                   Detras de WhiteB
                   <span style={{ color: '#EEE648' }}>o</span>x
                 </Text>
-                <Text tag='p' font='body.paragraph'>
+                <Text tag='p' font='body.paragraph'  color='neutral[400]'>
                   Colaboramos estrechamente con nuestros clientes para comprender sus objetivos y
                   ofrecer soluciones únicas y personalizadas.
                 </Text>

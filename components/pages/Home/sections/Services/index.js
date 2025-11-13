@@ -51,7 +51,7 @@ export default function Services() {
               <Text tag='h2' font='title.8' color='neutral.white'>
                 Nuestros servicios
               </Text>
-              <Text tag='p' font='body.paragraph'>
+              <Text tag='p' font='body.paragraph' color='neutral[400]'>
                 Comunicación, diseño y soluciones digitales adaptadas a tu negocio.
               </Text>
             </S.TitleWrapper>
@@ -70,7 +70,7 @@ export default function Services() {
                   <Text tag='h3' font='title.50' color='neutral.white'>
                     {title}
                   </Text>
-                  <Text tag='p' font='body.paragraph'>
+                  <Text tag='p' font='body.paragraph' color='neutral[400]'>
                     {description}
                   </Text>
                 </S.Card>

@@ -31,9 +31,7 @@ function CareersPage({ jobs = [] }) {
             <Text
               tag='p'
               font='body.paragraph'
-              style={{
-                fontWeight: 'bolder'
-              }}
+              color='neutral[400]'
             >
               Crecer, aprender y crear — sin importar el punto de partida, lo que cuenta es la
               pasión por construir algo significativo.
